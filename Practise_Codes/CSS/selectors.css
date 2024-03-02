@@ -1,0 +1,67 @@
+/* universal selector */
+*{
+    color: black;
+}
+
+/* element selector */
+button{
+    color: blue;
+    background-color: aquamarine;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+/* selecting specific element by its unique id */
+#final-submit{
+    color: chartreuse;
+    background-color: darkslateblue;
+}
+
+#login-button{
+    color: black;
+    background-color: cornflowerblue;
+}
+
+/* "#" is used for the id */
+#signup-button{
+    color: black;
+    background-color: coral;
+}
+
+span{
+    color: #c1121f;
+}
+
+/* "." is used for the class name */
+.ingredient{
+    background-color: greenyellow;
+    color: #c1121f;
+}
+
+/* Desendant selector */
+ul li{
+    color: rgb(6, 60, 179);
+}
+
+/* Adjacent selector */
+h2 > u{
+    color: purple;
+}
+
+
+/* pseudo element */
+p::selection{
+    background-color: aquamarine;
+
+}
+
+/* pseudo element start with :: */
+h2::first-letter{
+    font-size:larger;
+}
+
+
+/* important note : */
+/* ID-selector > Class-selector > Element-selector */
