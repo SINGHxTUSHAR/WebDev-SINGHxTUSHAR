@@ -13,22 +13,24 @@
 
 
 # Module for Web-Dev🌟: 
-### `Contents:`
+This repository contains the code and notes for the Full-Stack Dev.
+
+## CONTENTS:
 * Practise codes
 * Notes
 * Generic Templates
 * Basic-Projects
 
-### `Offline Access:`
+## OFFLINE ACCESS:
 You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine, and then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
 
-### `Author:` <a href="https://github.com/SINGHxTUSHAR">SINGHxTUSHAR</a>
+## AUTHOR: <a href="https://github.com/SINGHxTUSHAR">SINGHxTUSHAR</a>
 Hey, I am making this module to Doc my Web-Dev progress and to help the Absolute beginners to progress and learn Web-Dev as efficiently as possible. I will be providing all the useful resources and notes in this repository.
 
-### `License:`
+## LICENSE:
 This repository is licensed under the MIT license. See the <a href="https://github.com/SINGHxTUSHAR/WebDev-SINGHxTUSHAR/blob/main/LICENSE">LICENSE</a>  file for more information.
 
-### `Module-Status:`  `In-Progress`
+## Module-Status:  `In-Progress`
 This repository is currently in progress, and daily updates and new docs will be pushed, so stay tuned.
 
 
