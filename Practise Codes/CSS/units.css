@@ -1,0 +1,42 @@
+#major {
+  background-color: aqua;
+  width: 800px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  color: bisque;
+  background-color: dimgrey;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  background-color: chocolate;
+  width: 300px;
+  border: 3px dotted black;
+  padding: 5px;
+  border-left: 10px solid;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 0.5em;
+  text-decoration: wavy underline;
+}
+
+article {
+  font-size: 35px;
+}
+
+/* rem's are better then em's as the em can be scaled ehich me it will cummulate on every step. which leads either huge scale or very small scale.*/
