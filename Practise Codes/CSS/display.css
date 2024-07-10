@@ -1,12 +1,40 @@
+/* In the block elements, all properties are considered: length, width, padding, margin */
 h1{
     background-color: burlywood;
     border: 2px solid black;
+    margin: 15px;
+    padding: 15px;
+    width: 500px;
 }
 
+/* In the inline elements the width and length is not considered, but the margin and padding does */
 span{
     color: black;
     background-color: aquamarine;
     border: 2px dashed darkblue;
     margin: 2px;
     padding: 2px;
+    border: 3px solid black;
 }
+
+div{
+    color: rgb(244, 246, 247);
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    line-height: 300px;  
+    text-align: center;
+    
+    padding: 5px;
+    height: 300px;
+    width: 300px;
+    background-color: olive;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 5px;
+}
+
+/* the inline-block property means that it will be in inline with the all property of block */
+
+
+
