@@ -1,0 +1,85 @@
+<!-- This is the project in which i have developed a basic HTML form for the race-registration -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race-Registration</title>
+</head>
+
+<body>
+    <header>
+        <h1>Race Registration</h1>
+    </header>
+
+    <form action="/SINGHxTUSHAR">
+        <main>
+
+            <section>
+                <!-- Name section -->
+                <div>
+                    <label for="first">First Name</label>
+                    <input type="text" name="First-Name" id="first" placeholder="first-name" required minlength="4"
+                        maxlength="15">
+
+                    <label for="last">Last Name</label>
+                    <input type="text" name="Last-Name" id="last" placeholder="last-name" required minlength="3"
+                        maxlength="20">
+                </div>
+            </section>
+
+            <!-- select race length section -->
+            <section>
+                <p>Select a Race:</p>
+                <div>
+                    <input type="radio" name="race" id="fun run" value="5k">
+                    <label for="fun run">Fun Run 5k</label>
+                </div>
+                <div>
+                    <input type="radio" name="race" id="half marathon" value="half marathon">
+                    <label for="half marathon">Half Marathon</label>
+                </div>
+                <div>
+                    <input type="radio" name="race" id="full marathon" value="full marathon">
+                    <label for="full marathon">Full Marathon</label>
+                </div>
+            </section>
+
+            <!-- information section -->
+            <section>
+
+                <!-- email and password -->
+                <div>
+                    <p>Information Required: </p>
+
+                    <label for="email-id">Email</label>
+                    <input type="email" name="email" id="email-id" placeholder="email-address" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="password" required>
+                </div>
+
+
+                <!-- age group  -->
+                <div>
+                    <label for="age-grp">Select Age Group</label>
+
+                    <select name="age-group" id="age-grp" required>
+                        <option value="">please select your age group</option>
+                        <option value="below 18">below 18</option>
+                        <option value="between 18 to 25">between 18 to 25</option>
+                        <option value="above 25">above 25</option>
+                    </select>
+                </div>
+
+            </section>
+
+            <!-- submit button -->
+            <button type="submit">Register</button>
+
+        </main>
+    </form>
+</body>
+</html>
