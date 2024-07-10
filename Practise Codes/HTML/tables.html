@@ -1,0 +1,153 @@
+<!-- In this file we will be learning about the tables in HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>largest-livig-birds</title>
+    <link rel="stylesheet" href="C:\Users\dell\Desktop\WEB-D\Practise_Codes\CSS\table_data.css">
+</head>
+
+<body>
+    <header>
+        <h1>Largest extinct birds</h1>
+        <hr>
+    </header>
+
+    <main>
+        <h2>Table of heaviest extinct bird species</h2>
+        <hr>
+        <table class="center">
+            <caption>CHECKING TABLES</caption>
+            <thead>
+                <tr>
+                    <!-- "th": th is the heading or the column name -->
+                    <!-- "rowspan": rowspan provide the space of the row to the assign element -->
+                    <!-- "colspan": colspam provide the space of the col to the assign element -->
+                    <th rowspan="2" scope="col">Rank</th>
+                    <th rowspan="2"><a href="https://en.wikipedia.org/wiki/Taxonomy">Binomial Name</a></th>
+                    <th colspan="2">Mass estimate</th>
+                    <th rowspan="2">Family</th>
+                    <th rowspan="2">order</th>
+                </tr>
+                <tr>
+                    <th>kg</th>
+                    <th>lbs</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- "tr": tr is the table row -->
+                <tr class="first">
+                    <td>1</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Aepyornis">Aepyornis maximus</a></td>
+                    <td>850 kg</td>
+                    <td>1,870 lb</td>
+                    <td>Aepyornithidae </td>
+                    <td>Aepyornithiformes</td>
+                </tr>
+
+                <tr>
+                    <!-- "td": td is the specific element or the cell in any row -->
+                    <td>2</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Dromornis#Dromornis_stirtoni">Dromornis stirtoni</a></td>
+                    <td>800 kg</td>
+                    <td>1,800 lb</td>
+                    <td>Dromornithidae</td>
+                    <td>Anseriformes</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Pachystruthio">Pachystruthio dmanisensis</a></td>
+                    <td>450 kg</td>
+                    <td>990 lb</td>
+                    <td>Struthionidae</td>
+                    <td>Struthioniformes</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Brontornis">Brontornis burmeisteri</a></td>
+                    <td>319 kg</td>
+                    <td>703 lb</td>
+                    <td>Brontornithidae</td>
+                    <td>Anseriformes<sup><a
+                                href="https://en.wikipedia.org/wiki/List_of_largest_birds#cite_note-13">[Note
+                                4]</a></sup></td>
+
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Pachystruthio">Pachystruthio indet</a></td>
+                    <td>300 kg</td>
+                    <td>660 lb</td>
+                    <td>Struthionidae</td>
+                    <td>Struthioniformes</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th scope="row" colspan="5">FOOTER OF TABLE</th>
+                </tr>
+            </tfoot>
+
+        </table>
+
+
+        <!-- <section>
+            <iframe
+                src="https://www.google.com/maps/place/Samridhi+sports+complex-+sports+complex+in+Burari/@28.7716406,77.1837258,17z/data=!3m1!4b1!4m6!3m5!1s0x390d01e16ee8a4e7:0x3477315132b21a33!8m2!3d28.7716359!4d77.1863007!16s%2Fg%2F11p5lm1mwx?entry=ttu"
+                width="200px" height="300px" allowfullscreen frameborder="0">maps_check</iframe>
+        </section> -->
+
+        <section class="framedata">
+            <iframe id="inlineFrameExample" title="Inline Frame Example" width="300" height="200"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+            </iframe>
+        </section>
+
+        <section>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsum rerum aperiam tempore modi
+                labore odit iusto impedit minima dolor enim, perferendis omnis, doloribus reprehenderit neque illo
+                asperiores? Non, labore.
+            </p>
+        </section>
+
+        <div>
+            <h2><a href="https://www.jiocinema.com/tv-shows/khatron-ke-khiladi/12/rohit-shetty-the-new-competitor/3531264"
+                target="_blank">open link to new tab</a></h2>
+        </div>
+        <div class="h3class">
+            <h3><a href="https://www.jiocinema.com/tv-shows/khatron-ke-khiladi/12/rohit-shetty-the-new-competitor/3531264"
+                target="_self">open link to same tab</a></h3>
+        </div>
+
+        <!-- abberivation means storing the useful info in short -->
+        <div id="abberivation">
+            <h3><Abbr title="HyperText markup language">html</Abbr></h3>
+        </div>
+
+        <div>
+            <!-- description list -->
+             <h5>DESCRIPTION LIST</h5>
+             <dl>
+                <dt>Chota bheem</dt>
+                <dd>it is a cartoon which is cool and funny.</dd>
+
+                <dt>ben10</dt>
+                <dd>alien cartoon which has 10 aliens in it.</dd>
+             </dl>
+        </div>
+        
+        <a href="https://www.google.com/" type="_blank" title="Google">Go to google</a>
+    </main>
+
+</body>
+
+</html>

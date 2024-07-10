@@ -1,0 +1,17 @@
+h3{
+    color: rgb(164, 96, 96);
+    background-color: rgb(227, 182, 127);
+}
+
+p{
+    color: blue;
+}
+
+main{
+    background-color: cadetblue;
+}
+
+button{
+    color: darkviolet;
+    background-color: rgb(81, 181, 228);
+}
